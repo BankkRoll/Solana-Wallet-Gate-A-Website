@@ -1,0 +1,33 @@
+{
+  "name": "next-typescript-solana-starte",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@solana/wallet-adapter-react": "^0.15.20",
+    "@solana/wallet-adapter-react-ui": "^0.9.18",
+    "@solana/wallet-adapter-wallets": "^0.19.2",
+    "@thirdweb-dev/react": "^3",
+    "@thirdweb-dev/sdk": "^3",
+    "bootstrap": "^5.2.2",
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "sharp": "^0.31.1",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.2",
+    "@types/react": "^18.0.21",
+    "eslint": "^8.25.0",
+    "eslint-config-next": "^12.3.1",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.8.4"
+  }
+}

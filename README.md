@@ -1,1 +1,1 @@
-# Solana-Wallet-Gate-A-Website
+# typescript-nextjs-solana-react-mint
