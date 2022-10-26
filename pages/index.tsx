@@ -66,8 +66,7 @@ export default function NFTDrop() {
               : "Mint NFT 0.8 SOL"}
           </button>
         ) : (
-          // <WalletMultiButton />
-          null
+          <WalletMultiButton />
         )}
         
         <div className={styles.container}>
