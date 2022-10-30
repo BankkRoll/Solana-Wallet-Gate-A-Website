@@ -77,16 +77,10 @@ export default function NFTDrop() {
             null
           )}
         
-        <div className={styles.container}>
-        
-        <div className="nbtn">
-        <p>
-          THIS IS A DEVNET TEST SITE!
-        </p>
+        <div className={styles.container}></div>
+        <div className="nbtn"></div>
         <div className="nbtn2"></div>
-        </div>
-        </div>
-
+        
         <div className="Home_iconContainer1">
           <Image
             src="/sol.png"
