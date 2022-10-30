@@ -68,6 +68,14 @@ export default function NFTDrop() {
         ) : (
           <WalletMultiButton />
         )}
+
+        {wallet.connected && !isAllowed ? (
+          <div className="nbtn btn-5" >
+            <p>Sorry you are not wallet listed</p>
+          </div>
+          ) : (
+            null
+          )}
         
         <div className={styles.container}>
         
