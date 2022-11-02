@@ -78,8 +78,7 @@ export default function NFTDrop() {
           )}
         
         <div className={styles.container}></div>
-        <div className="nbtn"></div>
-        <div className="nbtn2"></div>
+        
         
         <div className="Home_iconContainer1">
           <Image
